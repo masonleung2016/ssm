@@ -7,7 +7,7 @@ import com.springboot.bcode.domain.auth.Department;
 /**
  * @Author: LCF
  * @Date: 2020/1/2 16:27
- * @Package: com.springboot.bcode.dao.impl
+ * @Package: com.springboot.bcode.dao
  */
 
 public interface DepartmentDao {
