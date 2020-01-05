@@ -46,7 +46,6 @@ public class JobRest extends BaseRest {
 
     }
 
-
     @RequestMapping(value = "all")
     public ResponseResult all() {
         ResponseResult rep = new ResponseResult();
@@ -96,7 +95,6 @@ public class JobRest extends BaseRest {
         }
         return rep;
     }
-
 
     @OpertionBLog(title = "删除岗位")
     @Requestauthorize
