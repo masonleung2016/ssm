@@ -41,7 +41,6 @@ public class RoleRest extends BaseRest {
             LoggerUtil.error(e.getMessage());
         }
         return rep;
-
     }
 
     @RequestMapping(value = "all")
@@ -55,7 +54,6 @@ public class RoleRest extends BaseRest {
             LoggerUtil.error(e.getMessage());
         }
         return rep;
-
     }
 
     /**
@@ -78,7 +76,6 @@ public class RoleRest extends BaseRest {
             rep.setCode(CODE_500);
             rep.setMsg("系统异常.请稍后再试");
         }
-
         return rep;
     }
 
@@ -148,7 +145,6 @@ public class RoleRest extends BaseRest {
             rep.setCode(CODE_500);
             rep.setMsg("系统异常.请稍后再试");
         }
-
         return rep;
     }
 
@@ -164,8 +160,6 @@ public class RoleRest extends BaseRest {
             rep.setCode(CODE_500);
             rep.setMsg("系统异常.请稍后再试");
         }
-
         return rep;
     }
-
 }
