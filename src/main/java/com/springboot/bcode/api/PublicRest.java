@@ -49,5 +49,4 @@ public class PublicRest extends BaseRest {
     public void video(@RequestParam("path") String path) {
         videoService.view(path);
     }
-
 }
