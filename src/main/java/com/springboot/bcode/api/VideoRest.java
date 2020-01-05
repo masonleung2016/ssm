@@ -41,7 +41,6 @@ public class VideoRest extends BaseRest {
             rep.setMsg("系统异常.请稍后再试");
         }
         return rep;
-
     }
 
     @RequestMapping(value = "/tiktok/upload", method = RequestMethod.POST)
@@ -79,5 +78,4 @@ public class VideoRest extends BaseRest {
         }
         return rep;
     }
-
 }
