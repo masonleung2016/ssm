@@ -93,7 +93,6 @@ public class PermissionRest extends BaseRest {
             rep.setCode(CODE_500);
             rep.setMsg("系统异常.请稍后再试");
         }
-
         return rep;
     }
 
