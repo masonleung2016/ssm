@@ -104,7 +104,6 @@ public class UserRest extends BaseRest {
             LoggerUtil.error(e.getMessage());
         }
         return rep;
-
     }
 
     @OpertionBLog(title = "添加用户")
@@ -155,7 +154,6 @@ public class UserRest extends BaseRest {
             rep.setMsg("系统异常.请稍后再试");
         }
         return rep;
-
     }
 
     @OpertionBLog(title = "更新用户状态")
@@ -172,7 +170,5 @@ public class UserRest extends BaseRest {
             rep.setMsg("系统异常.请稍后再试");
         }
         return rep;
-
     }
-
 }
