@@ -41,9 +41,7 @@ public class PublicRest extends BaseRest {
             rep.setMsg("系统异常.请稍后再试");
         }
         return rep;
-
     }
-
 
     @RequestMapping(value = "/tiktok/view")
     public void video(@RequestParam("path") String path) {
