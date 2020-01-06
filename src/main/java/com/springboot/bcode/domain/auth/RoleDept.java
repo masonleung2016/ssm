@@ -16,6 +16,7 @@ public class RoleDept {
 
     @Columns(column = "role_id")
     private Integer roleId;
+    
     @Columns(column = "dept_id")
     private Integer deptId;
 
@@ -34,5 +35,4 @@ public class RoleDept {
     public void setDeptId(Integer deptId) {
         this.deptId = deptId;
     }
-
 }
