@@ -129,5 +129,4 @@ public class RoleDaoImpl extends BaseDaoImpl implements RoleDao {
         return super.getJdbcTemplate().queryForList(sql.toString(),
                 Integer.class);
     }
-
 }
