@@ -10,22 +10,35 @@ import com.springboot.core.web.mvc.JqGridParam;
 
 public class UserInfoVO extends JqGridParam {
     private String uid;
+    
     private String name;
+    
     private String password;
+    
     private String vserName;
+    
     private String mobile;
+    
     private Integer state;
     // 用户状态1:正常;0:禁用
+    
     private Integer deptid;
     // 部门id
+    
     private Integer jobid;
     // 岗位id
+    
     private String deptName;
+    
     private String jobName;
+    
     private String email;
+    
     private String avatar = "pic";
+    
     private String introduction = "hello word";
     // 角色
+    
     private Integer roleIds[];
 
     public String getUid() {
@@ -139,5 +152,4 @@ public class UserInfoVO extends JqGridParam {
     public void setJobName(String jobName) {
         this.jobName = jobName;
     }
-
 }
