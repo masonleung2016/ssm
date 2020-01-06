@@ -107,5 +107,4 @@ public class JobDaoImpl extends BaseDaoImpl implements JobDao {
         return super.addOrUpdateOrDelete(sql.toString(), new Object[] { state,
                 id });
     }
-
 }
