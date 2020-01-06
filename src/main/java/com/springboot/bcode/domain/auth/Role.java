@@ -17,8 +17,10 @@ public class Role extends JqGridParam {
 
     @Columns(column = "id", primaryKey = true)
     private Integer id;
+    
     @Columns(column = "name")
     private String name;
+    
     @Columns(column = "levels")
     private Integer levels;
     // 新增用户时只能赋予比自己级别低的角色
@@ -30,8 +32,10 @@ public class Role extends JqGridParam {
     private Integer data_scope;
     // 数据范围（1：全部数据权限 2：自定数据权限 3：本部门及以下数据权限4：本部门数据权限 5：本人）
     // 自定义数据权限
+    
     private Integer deptIds[];
     // 权限id
+    
     private Integer permIds[];
 
     public Integer getId() {
@@ -89,5 +93,4 @@ public class Role extends JqGridParam {
     public void setDeptIds(Integer[] deptIds) {
         this.deptIds = deptIds;
     }
-
 }
