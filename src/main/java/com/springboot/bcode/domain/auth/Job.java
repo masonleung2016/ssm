@@ -56,6 +56,4 @@ public class Job extends JqGridParam {
     public void setState(Integer state) {
         this.state = state;
     }
-
-
 }
