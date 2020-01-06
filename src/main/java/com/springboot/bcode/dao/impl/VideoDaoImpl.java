@@ -62,5 +62,4 @@ public class VideoDaoImpl extends BaseDaoImpl implements VideoDao {
     public Video select(Video video) {
         return super.selectOne(video);
     }
-
 }
