@@ -87,5 +87,4 @@ public class DictDaoImpl extends BaseDaoImpl implements DictDao {
     public Dict select(Integer id) {
         return super.selectById(id, Dict.class);
     }
-
 }
