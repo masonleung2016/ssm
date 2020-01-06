@@ -142,5 +142,4 @@ public class UserDaoImpl extends BaseDaoImpl implements UserDao {
         return super.addOrUpdateOrDelete(sql.toString(), new Object[] { state,
                 uid });
     }
-
 }
