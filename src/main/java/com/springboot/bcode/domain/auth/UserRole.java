@@ -13,6 +13,7 @@ import com.springboot.core.jdbc.annotation.Tables;
 public class UserRole {
     @Columns(column = "user_id")
     private String userId;
+    
     @Columns(column = "role_id")
     private Integer roleId;
 
@@ -31,5 +32,4 @@ public class UserRole {
     public void setRoleId(Integer roleId) {
         this.roleId = roleId;
     }
-
 }
