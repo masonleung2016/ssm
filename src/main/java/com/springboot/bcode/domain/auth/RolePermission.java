@@ -14,6 +14,7 @@ public class RolePermission {
 
     @Columns(column = "role_id")
     private Integer roleId;
+    
     @Columns(column = "perm_id")
     private Integer permId;
 
@@ -32,7 +33,4 @@ public class RolePermission {
     public void setPermId(Integer permId) {
         this.permId = permId;
     }
-
-
-
 }
