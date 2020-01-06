@@ -86,5 +86,4 @@ public class Dict extends JqGridParam {
     public void setDescription(String description) {
         this.description = description;
     }
-
 }
