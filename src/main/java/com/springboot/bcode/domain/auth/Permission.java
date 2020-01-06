@@ -16,25 +16,32 @@ public class Permission implements Comparable<Permission> {
 
     @Columns(column = "id", primaryKey = true)
     private Integer id;
+    
     @Columns(column = "parent_id")
     private Integer parentId;
+    
     @Columns(column = "name")
     private String name;
+    
     @Columns(column = "types")
     private Integer types;
     //0目录 '1:菜单，2:按钮',
+    
     @Columns(column = "state")
     private Integer state;
+    
     @Columns(column = "description")
     private String description;
+    
     @Columns(column = "url")
     private String url;
+    
     @Columns(column = "levels")
     private Integer levels;
     // 菜单顺序
+    
     @Columns(column = "sorts")
     private Integer sorts;
-
 
     @Columns(column = "i_frame")
     private Integer i_frame;
@@ -83,7 +90,6 @@ public class Permission implements Comparable<Permission> {
         }
         return false;
     }
-
 
     public String getUrl() {
         return url;
@@ -235,7 +241,6 @@ public class Permission implements Comparable<Permission> {
         return -1;
     }
 
-
     public String getComponent_name() {
         return component_name;
     }
@@ -283,6 +288,4 @@ public class Permission implements Comparable<Permission> {
     public void setHidden(Integer hidden) {
         this.hidden = hidden;
     }
-
-
 }
