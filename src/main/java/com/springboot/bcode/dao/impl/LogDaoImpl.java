@@ -64,5 +64,4 @@ public class LogDaoImpl extends BaseDaoImpl implements LogDao {
     public int insert(BLog log) {
         return super.insert(log);
     }
-
 }
