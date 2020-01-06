@@ -18,46 +18,62 @@ public class UserInfo extends JqGridParam {
 
     @Columns(column = "uid", primaryKey = true, autoIncrement = false)
     private String uid;
+    
     @Columns(column = "name")
     private String name;
+    
     @Columns(column = "password")
     private String password;
+    
     @Columns(column = "vsername")
     private String vserName;
+    
     @Columns(column = "mobile")
     private String mobile;
+    
     @Columns(column = "createTime")
     private Date createTime;
+    
     @Columns(column = "state")
     private Integer state;
     // 用户状态1:正常;0:禁用
+    
     @Columns(column = "deptid")
     private Integer deptid;
     // 部门id
+    
     @Columns(column = "jobid")
     private Integer jobid;
     // 岗位id
+    
     @Columns(column = "email")
     private String email;
+    
     private String avatar = "pic";
+    
     private String introduction = "hello word";
 
     private String token;
+    
     private String deptName;
     // 部门名称
+    
     private String jobName;
     // 岗位名称
     // 角色
+    
     private List<Role> roles;
-
     // 用户的菜单
+    
     private List<MenuVO> menus;
     // 用户拥有的功能权限
+    
     private List<Permission> permissions;
-
     // 数据权限范围（1：全部数据权限 2：自定数据权限 3：本部门及以下数据权限4：本部门数据权限 5：本人）
+    
     private Integer datascope;
     // 户拥有的数据权限
+    
     private List<Integer> datascopes;
 
     public String getPassword() {
@@ -219,5 +235,4 @@ public class UserInfo extends JqGridParam {
     public void setDatascope(Integer datascope) {
         this.datascope = datascope;
     }
-
 }
