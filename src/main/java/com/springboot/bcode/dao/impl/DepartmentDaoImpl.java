@@ -48,5 +48,4 @@ public class DepartmentDaoImpl extends BaseDaoImpl implements DepartmentDao {
     public int delete(Department dept) {
         return super.delete(dept);
     }
-
 }
