@@ -87,5 +87,4 @@ public class MenuVO {
     public void setRoot(Boolean root) {
         this.root = root;
     }
-
 }
