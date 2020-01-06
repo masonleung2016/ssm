@@ -34,6 +34,4 @@ public class ModifyPwdVO {
     public void setOldPassword(String oldPassword) {
         this.oldPassword = oldPassword;
     }
-
 }
-
