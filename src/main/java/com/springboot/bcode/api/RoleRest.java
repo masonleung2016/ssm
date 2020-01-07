@@ -128,7 +128,7 @@ public class RoleRest extends BaseRest {
     /**
      * 分配角色对应的数据权限
      *
-     * @param roleRelationRightVO
+     * @param role
      * @return
      */
     @OpertionBLog(title = "角色分配数据权限")
